@@ -44,6 +44,53 @@
   }
 }
 
+main{
+  margin: 0;
+  font-family: var(--bs-font-sans-serif);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: black;
+  animation: blip 40s infinite;
+
+  /*background: linear-gradient(#FF99C8,#FEC8C3 ,#FCF6BD ,#D0F4DE ,#A9DEF9 ,#E4C1F9);*/
+  /*background: linear-gradient(#4C1A57 ,#FF3CC7 ,#F0F600,#00E5E8 ,#007C77 ,#A62B8F);*/
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+@keyframes blip{
+  15%{background:#F59CA9;}
+  30%{background:#F6828C;}
+  45%{background:#DF57BC;}
+  60%{background:#A03E99;}
+  75%{background:#371E30;}
+  90%{background:#4B3B47;}
+}
+
+firstbox{margin: 0;
+  font-family: var(--bs-font-sans-serif);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: black;
+  animation: blip 40s infinite;
+
+  /*background: linear-gradient(#FF99C8,#FEC8C3 ,#FCF6BD ,#D0F4DE ,#A9DEF9 ,#E4C1F9);*/
+  /*background: linear-gradient(#4C1A57 ,#FF3CC7 ,#F0F600,#00E5E8 ,#007C77 ,#A62B8F);*/
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+@keyframes blip{
+  15%{background:black;}
+  30%{background:black;}
+  45%{background:black;}
+  60%{background:black;}
+  75%{background:black;}
+  90%{background:black;}
+}
+
 body {
   margin: 0;
   font-family: var(--bs-font-sans-serif);
@@ -199,7 +246,7 @@ small, .small {
 
 mark, .mark {
   padding: 0.2em;
-  background-color: #fcf8e3;
+  background-color: black;
 }
 
 sub,
@@ -582,7 +629,7 @@ progress {
 
 .img-thumbnail {
   padding: 0.25rem;
-  background-color: #fff;
+  background-color: black;
   border: 1px solid #dee2e6;
   border-radius: 0.25rem;
   max-width: 100%;
@@ -2166,7 +2213,7 @@ progress {
   font-weight: 400;
   line-height: 1.5;
   color: #212529;
-  background-color: #fff;
+  background-color: black;
   background-clip: padding-box;
   border: 1px solid #ced4da;
   -webkit-appearance: none;
@@ -2218,7 +2265,7 @@ progress {
   -webkit-margin-end: 0.75rem;
   margin-inline-end: 0.75rem;
   color: #212529;
-  background-color: #e9ecef;
+  background-color:black;
   pointer-events: none;
   border-color: inherit;
   border-style: solid;
