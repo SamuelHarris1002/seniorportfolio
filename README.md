@@ -1,2 +1,0 @@
-# seniorportfolio
-the real deal
