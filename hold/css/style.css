@@ -5,12 +5,7 @@
   font-weight: normal;
   font-style: normal;
 }
-/* =======================================================
-*
-* 	Template Style 
-*	Edit this section
-*
-* ======================================================= */
+
 html {
   background: #222222;
 }
@@ -19,7 +14,7 @@ body {
   font-family: "Work Sans", Arial, sans-serif;
   font-size: 18px;
   line-height: 34px;
-  background: #222222;
+  background: #720E07;
   font-weight: 300;
   opacity: 0;
   color: #222;
@@ -30,7 +25,7 @@ a {
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
-  border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+  border-bottom: 2px solid rgba(146, 53, 53, 0.1);
 }
 a:hover, a:active, a:focus {
   color: #fff;
@@ -446,7 +441,7 @@ h1, h2, h3, h4, h5, h6 {
   right: 0;
   left: 0;
   height: 2px;
-  background: rgba(255, 255, 255, 0.03);
+  background: black;
   width: 101%;
   -webkit-transform: skewY(-7deg);
   -moz-transform: skewY(-7deg);
@@ -633,7 +628,7 @@ h1, h2, h3, h4, h5, h6 {
   right: 0;
   left: 0;
   height: 1px;
-  background: rgba(255, 255, 255, 0.1);
+  background: black;
   width: 101%;
   -webkit-transform: skewY(-7deg);
   -moz-transform: skewY(-7deg);
@@ -654,7 +649,7 @@ h1, h2, h3, h4, h5, h6 {
   right: 0;
   left: 0;
   height: 1px;
-  background: rgba(255, 255, 255, 0.1);
+  background: black;
   width: 101%;
   -webkit-transform: skewY(-7deg);
   -moz-transform: skewY(-7deg);
@@ -791,7 +786,7 @@ h1, h2, h3, h4, h5, h6 {
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
   border-radius: 50%;
-  background: rgba(255, 255, 255, 0.5);
+  background: black;
   background: #ffab00;
 }
 
