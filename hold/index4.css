@@ -1,3 +1,7 @@
+div, head, body, p,li, h1, nav, title, a, h2, h4, h3{
+  font-family: 'Permanent Marker', cursive;
+}
+
 
 main{
   margin: 0;
@@ -5,8 +9,7 @@ main{
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: black;
-  animation: blip 40s infinite;
+  animation: blip 1000s infinite;
 
   /*background: linear-gradient(#FF99C8,#FEC8C3 ,#FCF6BD ,#D0F4DE ,#A9DEF9 ,#E4C1F9);*/
   /*background: linear-gradient(#4C1A57 ,#FF3CC7 ,#F0F600,#00E5E8 ,#007C77 ,#A62B8F);*/
@@ -14,27 +17,31 @@ main{
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
-p, h1, h2, li{
-  animation: colorchange 20s infinite;
-  color: black;
+#words{
+  position: center;
+  padding-right: 0%;
+}
+
+#napolean{
+  float: right;
+  padding-right: 0%;
+}
+
+div, head, body, p,li, h1, nav, title, a, h2, h4, h3{
+  animation: colorchange 100s infinite;
 }
 
 @keyframes colorchange{
-  15%{background:#F59CA9;}
-  30%{background:#F6828C;}
-  45%{background:#DF57BC;}
-  60%{background:#A03E99;}
-  75%{background:#371E30;}
-  90%{background:#4B3B47;}
+  100%{color: black;}
 }
 
 @keyframes blip{
-  15%{background:#F59CA9;}
-  30%{background:#F6828C;}
-  45%{background:#DF57BC;}
-  60%{background:#A03E99;}
-  75%{background:#371E30;}
-  90%{background:#4B3B47;}
+  15%{background:#C32F27;}
+  30%{background:#FFCFD2;}
+  45%{background:#F9C80E;}
+  60%{background:#00D9C0;}
+  75%{background:#F9C80E;}
+  90%{background:#FFCFD2;}
 }
 
 firstbox{margin: 0;
