@@ -1,8 +1,18 @@
 body {
     font-family: "Inconsolata", monospace;
     color: #0d1e2d;
+    overflow: contain;
   }
   
+  p2 {
+    position: center;
+    font-size: 0.4in;
+  }
+
+#words{
+  font-size: 0.3in;
+}
+
   a {
     color: #777;
     text-decoration: none;
