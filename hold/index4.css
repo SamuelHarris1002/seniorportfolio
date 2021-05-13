@@ -27,7 +27,7 @@ main{
   padding-right: 0%;
 }
 
-div, head, body, p,li, h1, nav, title, a, h2, h4, h3{
+div, head, body, li, h1, nav, title,{
   animation: colorchange 100s infinite;
 }
 
