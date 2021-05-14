@@ -10,6 +10,10 @@ body {
   }
 
   
+ul, li {
+  list-style: none;
+}
+
 #words{
   font-size: 0.3in;
 }
