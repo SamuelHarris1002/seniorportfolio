@@ -9,7 +9,13 @@ body {
     font-size: 0.4in;
   }
 
-  
+#napolean{
+  border-radius: 50%;
+  height: 8cm;
+  width: 8cm;
+}
+
+
 ul, li {
   list-style: none;
 }
