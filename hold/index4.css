@@ -74,7 +74,7 @@ body {
   font-weight: 400;
   line-height: 1.5;
   color: black;
-  animation: blip 40s infinite;
+  animation: blip 60s infinite;
 
   /*background: linear-gradient(#FF99C8,#FEC8C3 ,#FCF6BD ,#D0F4DE ,#A9DEF9 ,#E4C1F9);*/
   /*background: linear-gradient(#4C1A57 ,#FF3CC7 ,#F0F600,#00E5E8 ,#007C77 ,#A62B8F);*/
